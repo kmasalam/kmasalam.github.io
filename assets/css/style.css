@@ -1129,9 +1129,11 @@ label input[type=radio] {
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-    top: -9%;
+    top: 0%;
     right: 0%;
     position: absolute;
+    content: "";
+    background-position: 47% 0%;
     content: "";
 }
 .banner-inner-area.banner-area1.banner2:after{
@@ -1211,9 +1213,14 @@ label input[type=radio] {
 .single-feature-inner {
     padding: 74px 10px 66px;
 }
-.center .single-feature-inner{
+.center .single-feature-inner {
     border: 4px solid #5b39c9;
     border-radius: 10px;
+    margin: -10px -10px -10px -10px;
+}
+.feature-carousel .owl-stage-outer {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .single-feature-inner .feature-icon svg rect,
 .single-feature-inner .feature-icon svg path {
